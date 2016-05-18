@@ -6,7 +6,7 @@ public class MusicPlayer : MonoBehaviour
     static  GameObject instance;
 
 	// Use this for initialization
-	void Start ()
+	void Awake ()
 	{
 	    if (instance != null)
 	    {
